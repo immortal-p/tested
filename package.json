@@ -12,5 +12,13 @@
   },
   "dependencies": {
     "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.26.4",
+    "@babel/core": "^7.26.8",
+    "@babel/preset-env": "^7.26.8",
+    "babel-plugin-espower": "^3.0.1",
+    "husky": "^4.3.8",
+    "power-assert": "^1.6.1"
   }
 }
