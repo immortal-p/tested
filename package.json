@@ -8,7 +8,7 @@
   "main": "index.js",
   "module": "type",
   "scripts": {
-    "test": "test/capitalize.test.js"
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest"
   },
   "dependencies": {
     "lodash": "^4.17.21"
